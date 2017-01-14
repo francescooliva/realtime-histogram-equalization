@@ -35,7 +35,7 @@ void compute_fps(int cnt, std::string myOutString, cv::Mat output_frame)
     //font parameters
     int fontFace = cv::FONT_HERSHEY_COMPLEX_SMALL;
     double fontScale = 1.0;
-    int red = 0, green = 255, blue = 255;
+    int red = 0, green = 0, blue = 255;
     cv::Scalar fontColor = cv::Scalar(blue, green, red);
     int fontThickness = 1;
 
